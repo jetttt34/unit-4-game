@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assest/CSS/style.css">
     
+    
 </head>
 <body>
     
@@ -32,10 +33,10 @@
     <div class="clear"></div>
 
     <div class="crystals">
-        <button class="c1"><img src="./assest/images/c1.jpg" height="100" width="100"></button>
-        <button class="c2"><img src="./assest/images/c2.jpg" height="100" width="100"></button>
-        <button class="c3"><img src="./assest/images/c3.jpg" height="100" width="100"></button>
-        <button class="c4"><img src="./assest/images/c4.jpg" height="100" width="100"></button>
+        <button class="c1" id="crystal1" onmousedown="bleep.play()"><img src="./assest/images/c1.jpg" height="100" width="100"></button>
+        <button class="c2" id="crystal2" onmousedown="bleep.play()"><img src="./assest/images/c2.jpg" height="100" width="100"></button>
+        <button class="c3" id="crystal3" onmousedown="bleep.play()"><img src="./assest/images/c3.jpg" height="100" width="100"></button>
+        <button class="c4" id="crystal4" onmousedown="bleep.play()"><img src="./assest/images/c4.jpg" height="100" width="100"></button>
     </div>
 
     <div class="userCurrentScore">
@@ -48,9 +49,11 @@
 
 
 
-    <script src="./assest/JavaScript/game.js">
-    
-    
+    <script src="./assest/JavaScript/game.js"> </script>
+    <script>
+            var bleep = new Audio();
+            bleep.src = "assest/sounds/bttnsound.mp3"
     </script>
+    
 </body>
 </html>
