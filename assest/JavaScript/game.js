@@ -16,6 +16,7 @@ function gem(gemNum){
     newScreen();
     if(userBalance === cpuNumber){
         // they won do something
+        alert("You Win! ")
         console.log("winner");
         wins++;
         newScreen();
@@ -24,6 +25,7 @@ function gem(gemNum){
         
         }else if(userBalance > cpuNumber){
            //They lost 
+           alert("You Suck! ")
            console.log("losser");
         losses++;
         newScreen();
