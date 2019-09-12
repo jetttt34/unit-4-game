@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Crystal Game</title>
     <link rel="stylesheet" href="./assest/CSS/style.css">
     <link rel="stylesheet" href="./assest/CSS/reset.css">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
 </head>
 <body>
@@ -22,7 +22,7 @@
         <p>Each time when the game starts, the game will change the values of each crystal.</p>
     </div>
 
-    <div class="randomNumber">39</div>
+    <div class="randomNumber" id="cpuNumber"></div>
 
     <div class="recordWL">
         
@@ -34,10 +34,10 @@
     <div class="clear"></div>
 
     <div class="crystals">
-        <button class="c1" id="crystal1" onmousedown="bleep.play()"><img src="./assest/images/c1.jpg" height="100" width="100"></button>
-        <button class="c2" id="crystal2" onmousedown="bleep.play()"><img src="./assest/images/c2.jpg" height="100" width="100"></button>
-        <button class="c3" id="crystal3" onmousedown="bleep.play()"><img src="./assest/images/c3.jpg" height="100" width="100"></button>
-        <button class="c4" id="crystal4" onmousedown="bleep.play()"><img src="./assest/images/c4.jpg" height="100" width="100"></button>
+        <button  id="crystal1" onclick="crystalClicked(1)" onmousedown="bleep.play()"><img src="./assest/images/c1.jpg" height="100" width="100"></button>
+        <button  id="crystal2" onclick="crystalClicked(2)" onmousedown="bleep.play()"><img src="./assest/images/c2.jpg" height="100" width="100"></button>
+        <button  id="crystal3" onclick="crystalClicked(3)" onmousedown="bleep.play()"><img src="./assest/images/c3.jpg" height="100" width="100"></button>
+        <button  id="crystal4" onclick="crystalClicked(4)" onmousedown="bleep.play()"><img src="./assest/images/c4.jpg" height="100" width="100"></button>
     </div>
 
     <div class="userCurrentScore">

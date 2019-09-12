@@ -85,7 +85,7 @@ h1{
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 856px) {
+@media only screen and (max-width: 856px){
   
     h1{
         color: white;
@@ -133,7 +133,7 @@ h1{
 
     .recordWL{
         background-color: skyblue;
-        width: 45%;
+        width: 48%;
         float: left;
         height: 125px;
         margin-left: 10px;
