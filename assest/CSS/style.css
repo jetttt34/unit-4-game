@@ -1,0 +1,78 @@
+h1{
+    color: white;
+    background-color: #cc5500;
+    width: 33.3%;
+    height: 69px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.gameInfo{
+    color: green;
+    background-color: bisque;
+    width: 54%;
+    height: 300px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 14px;
+
+}
+
+.randomNumber{
+    color: purple;
+    background-color: darkgreen;
+    width: 22%;
+    height: 150px;
+    font-size: 34px;
+    padding-top: 15px;
+    float:  left;
+    margin-bottom: 20px;
+    padding-left: 8px;
+    
+}
+
+.recordWL{
+    background-color: skyblue;
+    width: 10%;
+    float: left;
+    height: 165px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+.clear{
+    clear: both;
+}
+
+.crystals{
+   
+    margin-bottom: 10px;
+    
+}
+
+.userCurrentScore{
+    width: 22%;
+    background-color: rgb(6, 98, 114);
+    height: 30px;
+    color: white;
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+.boxForScore{
+    background-color: rgb(6, 98, 114);
+    color: white;
+    width: 22%;
+    height: 150px;
+    padding-left: 8px;
+    font-size: 34px;
+    margin-top: 16px;
+    padding-top: 10px;
+}
