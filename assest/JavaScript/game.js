@@ -18,12 +18,15 @@ function gem(gemNum){
         // they won do something
         console.log("winner");
         wins++;
+        newScreen();
         newGame();
+
         
         }else if(userBalance > cpuNumber){
            //They lost 
            console.log("losser");
         losses++;
+        newScreen();
         newGame();
 }
 }
@@ -55,6 +58,9 @@ function newScreen(){
     console.log(cpuNumber);
     $("#userBalance").text(userBalance);
     console.log("user balance = " + userBalance);
+    $("#recordW").text("Wins " + wins);
+    $("#recordL").text("Losses "+ losses);
+
 }
 
 newGame();
